@@ -272,15 +272,17 @@ img{
     position: absolute;
     left: 0;
     top: 0;
-    height: 100%;
+    height: 100vh;
     width: 100%;
     background-image: radial-gradient(200% 130% at 48% 65%, rgba(24, 27, 29, 0.5), rgba(25, 27, 28, 0.6), rgba(33, 37, 41, 0.7), rgba(33, 37, 41, 0.87), rgba(35, 41, 46, 0.99), #1d2024 55%, #16181a 200%);
 }
 .contact{
     width: 100%;
+    height: 100vh;
 }
 .overlay__footer{
     width: 100%;
+    height: 100vh;
     padding-top: 12rem;
 }
 .contact__title{

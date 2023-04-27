@@ -1,5 +1,5 @@
 'use strict'
-const showBtn = document.querySelector('.data__btn'),
+const showBtn = document.querySelector('[data__btn]'),
     modal = document.querySelector('.search__item');
 
     showBtn.addEventListener('click', () =>{
@@ -8,7 +8,7 @@ const showBtn = document.querySelector('.data__btn'),
     });
 
 
-const dataVid = document.querySelector('.vid'),
+const dataVid = document.querySelector('[vid]'),
     youtube = document.querySelector('.you__vid');
 
     dataVid.addEventListener('click', () =>{

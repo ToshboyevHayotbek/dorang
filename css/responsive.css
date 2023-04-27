@@ -1,0 +1,58 @@
+@media only screen and (max-width: 768px){
+    .container{
+        max-width: 80%;
+        margin: 0 auto;
+    }
+    .header__img{
+        width: 13%;
+    }
+    .nav__bar a{
+        text-decoration: none;
+        color: white;
+        font-size: 0.8rem;
+        font-family: Roboto Slab;
+    }
+    .nav__bar i{
+        margin-right: 1rem;
+    }
+    .header__item h1{
+        color: white;
+        font-size: 3rem;
+        font-family: Ubuntu;
+        opacity: 0.80;
+        width: 70%;
+        margin: 0 auto;
+    }
+    .header__item p{
+        color: white;
+        font-family: Karla;
+        width: 80%;
+        margin: 0 auto;
+        margin-bottom: 5%;
+    }
+    .navigation{
+        width: 100%;
+        padding-top: 2rem;
+        margin-bottom: 40%;
+    }
+    .explore__content{
+        width: 100%;
+        display: grid;
+        grid-template-columns: 100%;
+        align-items: center;
+        gap: 3rem;
+        margin-bottom: 3rem;
+    }
+    .journal__content{
+        width: 100%;
+        display: grid;
+        grid-template-columns: 100%;
+        gap: 2rem;
+        margin-bottom: 6rem;
+    
+    }
+    .contact__item{
+        width: 100%;
+        margin-bottom: 8rem;
+    }
+}

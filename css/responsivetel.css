@@ -1,0 +1,123 @@
+@media only screen and (max-width: 768px){
+    .container{
+        max-width: 90%;
+        margin: 0 auto;
+    }
+    .header__img{
+        width: 13%;
+    }
+    .navigation{
+        width: 100%;
+        padding-top: 2rem;
+        margin-bottom: 2rem;
+    }
+    .header__item button{
+        padding: 0.8rem 1rem;
+        border-radius: 30px;
+        background: transparent;
+        color: white;
+        border: 2px solid white;
+        font-size: 1.2rem;
+    }
+    .nav__bar a{
+        text-decoration: none;
+        color: white;
+        font-size: 0.6rem;
+        font-family: Roboto Slab;
+    }
+    .nav__bar i{
+        margin-right: 1rem;
+    }
+    .header__item h1{
+        color: white;
+        font-size: 2rem;
+        font-family: Ubuntu;
+        opacity: 0.80;
+        width: 70%;
+        margin: 0 auto;
+    }
+    .header__item p{
+        color: white;
+        font-family: Karla;
+        width: 60%;
+        margin: 0 auto;
+        margin-bottom: 7%;
+    }
+    .navigation{
+        width: 100%;
+        padding-top: 2rem;
+        margin-bottom: 40%;
+    }
+    .explore__title h2{
+        color: white;
+        font-size: 1.5rem;
+        font-family: Ubuntu;
+        margin-bottom: 10px;
+    }
+    .explore__title p{
+        color: #CECFD0;
+        font-family: Roboto Slab;
+        width: 100%;
+        text-align: center;
+        margin: 0 auto;
+        font-size: 0.2;
+    }
+    .explore__content{
+        width: 100%;
+        display: grid;
+        grid-template-columns: 100%;
+        align-items: center;
+        gap: 3rem;
+        margin-bottom: 3rem;
+    }
+    .journal__content{
+        width: 100%;
+        display: grid;
+        grid-template-columns: 100%;
+        gap: 2rem;
+        margin-bottom: 6rem;
+    }
+    .journal__title p{
+        color: #CECFD0;
+        font-family: Karla;
+        width: 100%;
+        margin: 0 auto;
+    }
+    .journal__title h2{
+        color: white;
+        font-size: 2rem;
+        font-family: Ubuntu;
+    }
+    .journal__item h2{
+        color: white;
+        font-size: 1.4rem;
+        font-family: Roboto Slab;
+        margin-bottom: 0.5rem;
+    }
+    .contact__item{
+        width: 100%;
+        margin-bottom: 8rem;
+    }
+    .contact__item input{
+        display: block;
+        margin: 0 auto;
+        padding: 0.8rem 1rem;
+        width: 100%;
+        background: transparent;
+        margin-bottom: 1rem;
+        border-top: 2px solid #6C757D;
+        border: 2px solid #6C757D;
+        border-radius: 10px;
+    }
+    .contact__item textarea{
+        display: block;
+        margin: 0 auto;
+        padding: 0.8rem 1rem;
+        width: 100%;
+        background: transparent;
+        margin-bottom: 1rem;
+        border-top: 2px solid #6C757D;
+        border: 2px solid #6C757D;
+        border-radius: 10px;
+    }
+}
